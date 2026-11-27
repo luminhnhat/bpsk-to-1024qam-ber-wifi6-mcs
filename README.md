@@ -28,13 +28,21 @@ This project studies the bit error rate (BER) of square M-QAM, from BPSK up to 1
 - `report/` : full report 
 
 ## How to run
-[Tool versions, main script name, expected output]
+Requirements: MATLAB [version R2026b] with Communications Toolbox (for `berawgn`).
+
+1. Clone the repository and open the `src/` folder in MATLAB.
+2. Run `[main_script_name].m` to reproduce the BER curves and the MCS selection results.
+3. Figures are saved to `results/`:
+   - BER: simulation vs. theory for BPSK to 1024-QAM
+   - Spectral efficiency vs. Shannon limit
+   - Goodput per MCS and the optimal envelope
+   - Effect of transmitter EVM on the coded model
 
 ## My contribution
-- [Implemented the Monte Carlo BER simulation and verified it against the analytical formula]
-- [Built the MCS selection model (goodput maximization, 12 HE MCS)]
-- [Analyzed the effect of transmitter EVM on MCS availability]
-- [Wrote the report]
+- Implemented the Monte Carlo BER simulation and verified it against the analytical formula.
+- Built the MCS selection model (goodput maximization, 12 HE MCS)
+- Analyzed the effect of transmitter EVM on MCS availability
+- Wrote the report
 
 
 ## References
