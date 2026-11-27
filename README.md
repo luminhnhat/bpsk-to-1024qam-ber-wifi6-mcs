@@ -1,0 +1,2 @@
+# bpsk-to-1024qam-ber-wifi6-mcs
+HIỆU NĂNG BER CỦA ĐIỀU CHẾ TỪ BPSK ĐẾN 1024-QAM TRONG KÊNH NHIỄU AWGN VÀ ỨNG DỤNG CHỌN MCS TRONG WI-FI 6
